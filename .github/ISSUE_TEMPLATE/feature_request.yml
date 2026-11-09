@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a focused portfolio improvement
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals must preserve factual claims, accessibility, and the released-versus-planned distinction.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What reader or maintainer problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest useful solution.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Content and evidence
+        - Visual design
+        - Accessibility
+        - Performance
+        - Testing and quality
+        - Deployment and maintenance
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence impact
+      description: List any factual claim this adds or changes and its public source. Write "None" when not applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Accessibility, security, and performance
+      description: Note likely impact and how it should be verified.
+    validations:
+      required: true

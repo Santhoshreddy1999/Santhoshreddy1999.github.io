@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Santhosh Reddy &#8212; AI Full-Stack and Backend Engineer</title>
+  <desc id="desc">Evidence-first portfolio with one released AI application and fourteen transparently planned projects.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65e6b4"/>
+      <stop offset="1" stop-color="#8ea7ff"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#20282a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#090d0f"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".55"/>
+  <rect x="48" y="48" width="1104" height="534" rx="24" fill="#0d1214" stroke="#283234"/>
+  <g transform="translate(780 108)">
+    <path d="M38 68H174M174 68l48 86M222 154h122M174 68l48 214M222 282h122" fill="none" stroke="#344143" stroke-width="2"/>
+    <path d="M44 68h120M232 154h102M232 282h102" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="38" cy="68" r="18" fill="#112b24" stroke="#65e6b4" stroke-width="2"/>
+    <circle cx="174" cy="68" r="18" fill="#151f35" stroke="#8ea7ff" stroke-width="2"/>
+    <circle cx="222" cy="154" r="18" fill="#112b24" stroke="#65e6b4" stroke-width="2"/>
+    <circle cx="344" cy="154" r="18" fill="#151f35" stroke="#8ea7ff" stroke-width="2"/>
+    <circle cx="222" cy="282" r="18" fill="#151f35" stroke="#8ea7ff" stroke-width="2"/>
+    <circle cx="344" cy="282" r="18" fill="#112b24" stroke="#65e6b4" stroke-width="2"/>
+    <g fill="#d9e2df" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">
+      <text x="12" y="108">CLIENT</text>
+      <text x="147" y="108">API</text>
+      <text x="193" y="194">RETRIEVE</text>
+      <text x="315" y="194">GROUND</text>
+      <text x="193" y="322">MEASURE</text>
+      <text x="315" y="322">OPERATE</text>
+    </g>
+  </g>
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="92" y="132" fill="#65e6b4" font-size="18" font-weight="700" letter-spacing="3">EVIDENCE-FIRST ENGINEERING</text>
+    <text x="92" y="225" fill="#f4f2eb" font-size="70" font-weight="650">Santhosh Reddy</text>
+    <text x="92" y="291" fill="#c6cfcc" font-size="33">AI Full-Stack &#183; Backend &#183; Cloud</text>
+    <text x="92" y="380" fill="#8f9c99" font-size="22">Released RAG system. Source-linked quality.</text>
+    <text x="92" y="416" fill="#8f9c99" font-size="22">Plans that are labeled as plans.</text>
+  </g>
+  <line x1="92" y1="484" x2="1108" y2="484" stroke="#283234"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17">
+    <text x="92" y="531" fill="#f4f2eb">v0.1.0 RELEASED</text>
+    <text x="324" y="531" fill="#65e6b4">31 TESTS</text>
+    <text x="487" y="531" fill="#8ea7ff">87% BACKEND COVERAGE</text>
+    <text x="792" y="531" fill="#8f9c99">1 RELEASED / 14 PLANNED</text>
+  </g>
+</svg>
